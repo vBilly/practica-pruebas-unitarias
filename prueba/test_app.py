@@ -18,4 +18,4 @@ def test_sumar(cliente):
     assert r.get_json()['resultado'] == 5
 
 def test_suma_incorrecta():
-    assert 5 + 2 == 5  # debería ser 7 → falla
+    assert 5 + 2 == 7  # debería ser 7 → falla
